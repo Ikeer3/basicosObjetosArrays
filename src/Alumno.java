@@ -17,6 +17,6 @@ public class Alumno {
     }
 
     public void mostrarDatos() {
-        System.out.println(nombre + " ha sacado un " + nota);
+        System.out.print("\n" + nombre + " ha sacado un " + nota);
     }
 }
