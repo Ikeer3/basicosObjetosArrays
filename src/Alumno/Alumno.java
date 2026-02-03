@@ -1,3 +1,5 @@
+package Alumno;
+
 public class Alumno {
 
     private String nombre;
