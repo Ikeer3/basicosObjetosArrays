@@ -17,4 +17,12 @@ public class Jugador {
     public int getVida() {
         return vida;
     }
+
+    public void reducirDanho() {
+        vida = vida - 10;
+
+        if (vida < 0) {
+            vida = 0;
+        }
+    }
 }
